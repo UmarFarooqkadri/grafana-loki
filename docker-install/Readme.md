@@ -1,7 +1,13 @@
 # https://grafana.com/docs/loki/latest/setup/install/docker/
 
-Download config files
+Download Loki config files
+
+	
+	```bash
 wget https://raw.githubusercontent.com/grafana/loki/v3.0.0/cmd/loki/loki-local-config.yaml -O loki-config.yaml
+```
+
+
 wget https://raw.githubusercontent.com/grafana/loki/v3.0.0/clients/cmd/promtail/promtail-docker-config.yaml -O promtail-config.yaml
 
 Run Docker
